@@ -1,0 +1,49 @@
+{
+  "version": "3.0",
+  "description": "Hybrid LSTM+Transformer model configuration",
+
+  "data": {
+    "sequence_length": 60,
+    "n_features": 93
+  },
+
+  "training": {
+    "batch_size": 32,
+    "epochs": 200,
+    "learning_rate": 0.0005,
+    "patience": 30,
+    "warmup_epochs": 10
+  },
+
+  "lstm": {
+    "units": [128, 64],
+    "dropout": 0.2,
+    "recurrent_dropout": 0.1
+  },
+
+  "transformer": {
+    "d_model": 64,
+    "num_heads": 4,
+    "num_layers": 3,
+    "dff": 256,
+    "dropout": 0.1
+  },
+
+  "dense": {
+    "units": [64, 32],
+    "dropout": 0.3
+  },
+
+  "regularization": {
+    "l2": 0.001
+  },
+
+  "bias": {
+    "growth_bias": 0.005,
+    "under_prediction_weight": 2.0
+  },
+
+  "features": {
+    "use_feature_attention": true
+  }
+}

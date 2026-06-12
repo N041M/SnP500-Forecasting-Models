@@ -1,0 +1,20 @@
+{
+  "csv_files": [
+    "csv/sp500_analysis_20250830_094857.csv",
+    "csv/sp500_quarterly_20250830_103017_prices.csv",
+    "csv/sp500_quarterly_20250830_103017_summary.csv"
+  ],
+  "sequence_length": 60,
+  "train_split": 0.7,
+  "validation_split": 0.15,
+  "batch_size": 64,
+  "epochs": 100,
+  "learning_rate": 0.0005,
+  "patience": 15,
+  "lstm_units": [
+    64,
+    32
+  ],
+  "dropout_rate": 0.2,
+  "post_prediction_growth_bias": 0.001
+}
