@@ -4,7 +4,7 @@
 
 Three generations of architectures, from quick single-file prototypes to a fully instrumented hybrid with post-training diagnostics. The point is the comparison, not a trading edge: the final generation ships a diagnostic suite that distinguishes real directional skill from the market's upward drift — and says so plainly when a model has none.
 
-> Python 3.13 · TensorFlow 2.20 / Keras 3 · yfinance · ta · scikit-learn · pandas · matplotlib + seaborn
+> Python 3.13 · TensorFlow 2.20 / Keras 3 · yfinance · ta · scikit-learn · pandas · matplotlib + seaborn · MIT licensed
 
 ---
 
